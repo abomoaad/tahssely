@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="ar" dir="rtl"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>محاكي التحصيلي - مدرسة أنس بن النضر الثانوية</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;800&display=swap">
+<style>
+:root{color-scheme:light;--bg:#D3E4DD;--enc:#FBF1D2;--enct:#4a3b0a;--pat:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cg fill='none' stroke='rgb(40,95,85)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' opacity='.18'%3E%3Cpath d='M20 40q15-8 30 0q15-8 30 0v30q-15-8-30 0q-15-8-30 0zM50 40v30'/%3E%3Cpath d='M150 18l4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1z'/%3E%3Cpath d='M20 150l25-12 25 12-25 12zM30 156v14q15 8 30 0v-14'/%3E%3Cpath d='M130 130h30v14q0 12-15 12t-15-12zM130 134h-8q0 12 8 12M160 134h8q0 12-8 12M145 156v10M135 168h20'/%3E%3Cpath d='M185 90l12-12 6 6-12 12-8 2zM98 110a4 4 0 1 0 8 0a4 4 0 1 0-8 0'/%3E%3C/g%3E%3C/svg%3E");--b:#0A9396;--ac:var(--b);--ai:#fff;--sf:#FCFDFC;--ink:#1d2433;--mu:#5b6578;--ln:#dfe3ec;--ok:#1f8a4c;--oks:#dff5e8;--bad:#c23b34;--bads:#fde3e1;--c0:#0A9396;--c1:#F2682E;--c2:#6C4CF1;--c3:#E0A100;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){color-scheme:dark;--bg:#161c20;--enc:#3a3422;--enct:#f1e3b3;--pat:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220'%3E%3Cg fill='none' stroke='rgb(190,220,210)' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' opacity='.08'%3E%3Cpath d='M20 40q15-8 30 0q15-8 30 0v30q-15-8-30 0q-15-8-30 0zM50 40v30'/%3E%3Cpath d='M150 18l4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1z'/%3E%3Cpath d='M20 150l25-12 25 12-25 12zM30 156v14q15 8 30 0v-14'/%3E%3Cpath d='M130 130h30v14q0 12-15 12t-15-12zM130 134h-8q0 12 8 12M160 134h8q0 12-8 12M145 156v10M135 168h20'/%3E%3Cpath d='M185 90l12-12 6 6-12 12-8 2zM98 110a4 4 0 1 0 8 0a4 4 0 1 0-8 0'/%3E%3C/g%3E%3C/svg%3E");--ac:color-mix(in srgb,var(--b),#fff 40%);--ai:#10131c;--sf:#1a2030;--ink:#eef1f7;--mu:#a3adc0;--ln:#2d364a;--ok:#6fd49a;--oks:#173626;--bad:#f58d87;--bads:#3b1f1e;--c0:#5fd0d3;--c1:#ff9a73;--c2:#b3a1ff;--c3:#ffd45a}}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}*{box-sizing:border-box}
+body{margin:0;color:var(--ink);font-family:Tajawal,"Segoe UI",Tahoma,Arial,sans-serif;line-height:1.7;background-color:var(--bg);background-image:var(--pat);background-size:220px;background-attachment:fixed}
+.w{max-width:780px;margin:0 auto;padding:14px}h1{font-size:27px;margin:6px 0}h3{margin:0 0 8px}p{margin:4px 0;color:var(--mu)}
+.hd{display:flex;align-items:center;gap:10px;background:var(--ac);color:var(--ai);border-radius:16px;padding:12px 16px;flex-wrap:wrap}.hd b{font-size:18px;flex:1}.hd span{opacity:.9}.seal{font-size:22px}
+.hero{background:var(--sf);border-radius:16px;padding:18px;margin:12px 0;border:1px solid var(--ln);border-bottom:5px solid #EBD79A}
+.card{background:var(--sf);border:1px solid var(--ln);border-radius:16px;padding:16px;margin:12px 0}
+.tips{margin:0;padding-right:20px}.tips li{margin:4px 0}
+.chips{display:flex;gap:8px;flex-wrap:wrap}.chip{border:2px solid var(--ln);background:var(--sf);color:var(--ink);border-radius:24px;padding:6px 14px;font:inherit;cursor:pointer}.chip.on{background:var(--ac);color:var(--ai);border-color:var(--ac)}
+.fl{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-top:10px}
+input,select{font:inherit;padding:8px 10px;border-radius:10px;border:1px solid var(--ln);background:var(--sf);color:var(--ink);width:100%}
+button{font:inherit;cursor:pointer}
+.m{display:block;width:100%;text-align:right;color:inherit;border:1px solid var(--ln);background:var(--sf);border-radius:16px;padding:14px 16px;margin:10px 0;border-right:8px solid var(--mc)}
+.m b{font-size:19px;color:var(--mc)}.m:hover{transform:translateY(-2px);box-shadow:0 6px 18px #0002}
+.btn{background:var(--ac);color:var(--ai);border:0;border-radius:12px;padding:10px 20px;font-weight:700}.btn.g{background:transparent;color:var(--ac);border:2px solid var(--ac)}.btn:disabled{opacity:.4;cursor:default}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}.tm{font-weight:800;font-size:19px;direction:ltr;color:var(--ac)}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin:10px 0}.tab{border:2px solid var(--ln);background:var(--sf);color:var(--ink);border-radius:20px;padding:3px 14px;white-space:nowrap}.tab.on{background:var(--ac);color:var(--ai);border-color:var(--ac)}
+.enc{background:var(--enc);color:var(--enct);border-radius:12px;padding:6px 12px;font-weight:700;text-align:center}
+.q{font-size:19px;font-weight:700;margin:6px 0 10px}.fig{text-align:center;margin:8px 0;color:var(--ink)}.fig svg{width:100%;max-width:280px;background:color-mix(in srgb,var(--ac) 8%,var(--sf));border-radius:12px}.fig text{text-anchor:middle;font-size:13px;fill:currentColor}
+.o{display:flex;gap:10px;width:100%;text-align:right;background:var(--sf);color:var(--ink);border:2px solid var(--ln);border-radius:12px;padding:10px 12px;margin:8px 0}.o:hover{border-color:var(--ac)}.o.s{background:color-mix(in srgb,var(--ac) 16%,var(--sf));border-color:var(--ac)}
+.o i{font-style:normal;font-weight:800;color:var(--ac)}.o span{unicode-bidi:plaintext}.o.ok{background:var(--oks);border-color:var(--ok)}.o.no{background:var(--bads);border-color:var(--bad)}
+.nav{display:flex;justify-content:space-between;gap:8px;margin-top:10px}
+.gr{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}.gr button{width:34px;height:34px;border-radius:9px;border:1px solid var(--ln);background:var(--sf);color:var(--ink)}.gr .d{background:color-mix(in srgb,var(--ac) 20%,var(--sf));border-color:var(--ac)}.gr .c{outline:2px solid var(--ac)}
+.big{font-size:46px;font-weight:800;color:var(--ac);text-align:center}.bar{height:12px;background:var(--ln);border-radius:6px;overflow:hidden}.bar div{height:100%}.row{display:flex;justify-content:space-between;margin-top:10px}
+.cert{border:4px double #E0A100;border-radius:16px;padding:18px;text-align:center;background:var(--sf);margin:12px 0}.cert h2{color:var(--ac);margin:6px 0}
+.md{position:fixed;inset:0;background:#0007;display:flex;align-items:center;justify-content:center;padding:16px;z-index:50}.mb{background:var(--sf);border-radius:16px;padding:18px;max-width:380px;width:100%}.ts{position:fixed;bottom:calc(20px + env(safe-area-inset-bottom,0px));left:50%;transform:translateX(-50%);background:var(--ink);color:var(--sf);padding:10px 18px;border-radius:20px;z-index:60;max-width:90%;text-align:center}
+.foot{text-align:center;font-size:13px;color:var(--mu);margin:22px 0}.foot p{margin:2px 0}
+@media print{body *{visibility:hidden}.cert,.cert *{visibility:visible}.cert{position:absolute;inset:0 0 auto 0}}
+</style></head><body><div class="w" id="app"></div>
+<script>
+const M=[
+{t:"النموذج الأول",s:"الصف الأول الثانوي",S:[
+["الرياضيات",[
+["حل المعادلة 2س + 6 = 14 هو س =",["2","3","4","5"],2],
+["قيمة 2^5 تساوي",["10","25","32","64"],2],
+["إذا كانت د(س) = 3س - 2 فإن د(4) =",["10","12","14","8"],0],
+["ميل المستقيم المار بالنقطتين (1، 2) و(3، 6) يساوي",["1","2","3","4"],1],
+["مجموع قياسات زوايا المثلث الداخلية",["90°","180°","270°","360°"],1]]],
+["الفيزياء",[
+["وحدة قياس السرعة في النظام الدولي",["م/ث","كجم","نيوتن","جول"],0],
+["سيارة تقطع 120 كم في ساعتين، فإن سرعتها المتوسطة",["40 كم/س","60 كم/س","80 كم/س","240 كم/س"],1],
+["العجلة هي معدل التغير في",["المسافة","السرعة","الكتلة","القوة"],1],
+["القوة المؤثرة في جسم كتلته 2 كجم وعجلته 3 م/ث² تساوي",["5 نيوتن","6 نيوتن","1.5 نيوتن","9 نيوتن"],1],
+["قانون نيوتن الأول يسمى قانون",["الجاذبية","القصور الذاتي","الفعل ورد الفعل","حفظ الطاقة"],1]]],
+["الكيمياء",[
+["الرمز الكيميائي لعنصر الصوديوم",["S","So","Na","N"],2],
+["العدد الذري لعنصر يساوي عدد",["النيوترونات","البروتونات","الكتلة","المدارات"],1],
+["الجسيم سالب الشحنة في الذرة",["البروتون","النيوترون","الإلكترون","النواة"],2],
+["عناصر المجموعة 18 في الجدول الدوري تسمى",["الهالوجينات","الغازات النبيلة","الفلزات القلوية","الفلزات الانتقالية"],1],
+["تحول الماء من الحالة السائلة إلى الغازية يسمى",["تجمد","تكثف","تبخر","انصهار"],2]]],
+["الأحياء",[
+["وحدة البناء والوظيفة في الكائن الحي",["النسيج","الخلية","العضو","الجهاز"],1],
+["العضية المسؤولة عن إنتاج الطاقة",["الريبوسوم","الميتوكندريا","جهاز جولجي","الليسوسوم"],1],
+["العضية المسؤولة عن البناء الضوئي",["الميتوكندريا","النواة","البلاستيدات الخضراء","الفجوة"],2],
+["أصغر وحدة في تصنيف الكائنات الحية",["المملكة","الفصيلة","النوع","الشعبة"],2],
+["يقوم الغشاء البلازمي بتنظيم",["دخول المواد وخروجها","التنفس فقط","الوراثة","تصنيع البروتين"],0]]]]},
+{t:"النموذج الثاني",s:"الصف الثاني الثانوي",S:[
+["الرياضيات",[
+["قيمة جا 30° تساوي",["1/2","√3/2","1","0"],0],
+["في المتتابعة الحسابية 3، 7، 11، ... الحد الخامس يساوي",["15","19","23","27"],1],
+["لو₁₀(1000) =",["2","3","10","100"],1],
+["جذرا المعادلة س² - 5س + 6 = 0 هما",["2 و 3","1 و 6","-2 و -3","5 و 1"],0],
+["قيمة 5! (مضروب 5) تساوي",["24","60","120","720"],2]]],
+["الفيزياء",[
+["الشغل = القوة × ",["الزمن","الإزاحة","الكتلة","السرعة"],1],
+["طاقة الحركة لجسم كتلته 2 كجم وسرعته 3 م/ث تساوي",["3 جول","6 جول","9 جول","18 جول"],2],
+["كمية الحركة = الكتلة × ",["العجلة","السرعة","الزمن","القوة"],1],
+["وحدة قياس التردد",["الهرتز","الواط","الأوم","الباسكال"],0],
+["الوسط الذي لا ينتقل فيه الصوت",["الماء","الهواء","الفراغ","الحديد"],2]]],
+["الكيمياء",[
+["عدد الجسيمات في المول الواحد (عدد أفوجادرو) يساوي تقريبًا",["6.02 × 10²³","3.14 × 10⁸","6.02 × 10⁻²³","9.8 × 10³"],0],
+["الكتلة المولية للماء H₂O (H=1، O=16) تساوي",["16 جم/مول","18 جم/مول","20 جم/مول","34 جم/مول"],1],
+["العلاقة العكسية بين ضغط الغاز وحجمه عند ثبوت درجة الحرارة يمثلها قانون",["شارل","بويل","أفوجادرو","جاي لوساك"],1],
+["التفاعل الذي يمتص حرارة من المحيط يسمى",["طارد للحرارة","ماص للحرارة","تعادل","احتراق"],1],
+["الرقم الهيدروجيني للمحلول المتعادل عند 25°م",["0","7","14","1"],1]]],
+["الأحياء",[
+["عدد الكروموسومات في الخلية الجسدية البشرية",["23","44","46","92"],2],
+["الانقسام الذي ينتج الأمشاج",["الميتوزي","الميوزي","الانشطار الثنائي","التبرعم"],1],
+["الجزيء الرئيس لتخزين الطاقة في الخلية",["DNA","ATP","RNA","NADH"],1],
+["التركيب الجيني Aa يسمى",["نقيًّا سائدًا","هجينًا","نقيًّا متنحيًا","طافرًا"],1],
+["القاعدة النيتروجينية التي تقترن بالأدينين في DNA",["الجوانين","السيتوزين","الثايمين","اليوراسيل"],2]]]]},
+{t:"النموذج الثالث",s:"الصف الثالث الثانوي",S:[
+["الرياضيات",[
+["مشتقة الدالة د(س) = س³ هي",["س²","3س²","3س","س³"],1],
+["نهاية س² عندما س تؤول إلى 2 تساوي",["2","4","8","∞"],1],
+["تكامل 2س دس =",["س² + ث","2س² + ث","س + ث","2 + ث"],0],
+["احتمال ظهور عدد زوجي عند رمي حجر نرد منتظم",["1/6","1/3","1/2","2/3"],2],
+["الوسط الحسابي للأعداد 2، 4، 6، 8",["4","5","6","20"],1]]],
+["الفيزياء",[
+["تيار شدته 2 أمبير يمر في مقاومة 5 أوم، فإن فرق الجهد",["2.5 فولت","7 فولت","10 فولت","25 فولت"],2],
+["وحدة قياس المجال المغناطيسي",["التسلا","الفولت","الأمبير","الأوم"],0],
+["الظاهرة التي تثبت الطبيعة الجسيمية للضوء",["الحيود","التأثير الكهروضوئي","الانكسار","التداخل"],1],
+["المقاومة المكافئة لمقاومتين 4 Ω و 6 Ω على التوالي",["2.4 Ω","5 Ω","10 Ω","24 Ω"],2],
+["يتولد التيار الحثي في الملف عند تغير",["الفيض المغناطيسي","الكتلة","الحرارة النوعية","الكثافة"],0]]],
+["الكيمياء",[
+["المجموعة الوظيفية المميزة للكحولات",["-COOH","-OH","-CHO","-NH₂"],1],
+["الصيغة الجزيئية للميثان",["C₂H₆","CH₄","C₂H₄","C₃H₈"],1],
+["المحلول الذي رقمه الهيدروجيني 3 يكون",["قاعديًّا","متعادلًا","حمضيًّا","غير محدد"],2],
+["عند الاتزان الكيميائي",["يتوقف التفاعل تمامًا","معدل التفاعل الأمامي يساوي العكسي","تنتهي المتفاعلات","تزداد النواتج دائمًا"],1],
+["الاختزال في تفاعلات الأكسدة والاختزال يعني",["فقد إلكترونات","اكتساب إلكترونات","فقد بروتونات","اكتساب نيوترونات"],1]]],
+["الأحياء",[
+["عملية نسخ DNA إلى mRNA تسمى",["الترجمة","النسخ","التضاعف","الطفرة"],1],
+["صاحب نظرية الانتخاب الطبيعي",["لامارك","داروين","مندل","باستور"],1],
+["الإنزيم الذي يربط شظايا DNA ببعضها",["الهيليكيز","الليجيز","الأميليز","البيبسين"],1],
+["المنتجات في السلسلة الغذائية هي",["العواشب","النباتات الخضراء","المحللات","اللواحم"],1],
+["التقنية المستخدمة لتضخيم جزء من DNA مخبريًّا",["الترحيل الكهربائي","الاستنساخ","تفاعل البلمرة المتسلسل PCR","الزراعة النسيجية"],2]]]]}
+];
+
+const X=[
+[[["حل المتباينة س + 3 > 7 هو",["س > 4","س < 4","س > 10","س < 10"],0],["√81 =",["7","8","9","10"],2],["محيط مستطيل طوله 8 وعرضه 5",["13","26","40","80"],1],["20% من العدد 150 تساوي",["20","30","40","50"],1],["إذا كان 3س = 27 فإن س =",["6","8","9","24"],2]],
+[["وحدة قياس القوة",["الجول","النيوتن","الواط","الباسكال"],1],["تسارع الجاذبية الأرضية تقريبًا",["1.6 م/ث²","9.8 م/ث²","98 م/ث²","0.98 م/ث²"],1],["وزن جسم كتلته 10 كجم (g = 10 م/ث²)",["1 نيوتن","10 نيوتن","100 نيوتن","1000 نيوتن"],2],["الكمية المتجهة من بين الآتية",["الزمن","الكتلة","السرعة المتجهة","درجة الحرارة"],2],["القوة التي تعاكس الحركة بين سطحين متلامسين",["الاحتكاك","الجاذبية","المرونة","الطفو"],0]],
+[["الصيغة الكيميائية للماء",["HO","H₂O","H₂O₂","OH"],1],["الرابطة بين الصوديوم والكلور في ملح الطعام",["تساهمية","أيونية","فلزية","هيدروجينية"],1],["عدد إلكترونات التكافؤ في الأكسجين (المجموعة 16)",["2","4","6","8"],2],["مثال على مخلوط غير متجانس",["ماء وملح","ماء وزيت","الهواء","ماء وسكر"],1],["تفاعل الحديد مع الأكسجين والرطوبة ينتج",["الصدأ","ملحًا","ماءً","غازًا"],0]],
+[["الصبغة المسؤولة عن اللون الأخضر في النبات",["الكلوروفيل","الهيموجلوبين","الميلانين","الكاروتين"],0],["العضية التي تحتوي المادة الوراثية في الخلية حقيقية النواة",["الفجوة","النواة","جهاز جولجي","الميتوكندريا"],1],["انتقال الماء عبر غشاء شبه منفذ يسمى",["الأسموزية","الانتشار الميسر","النقل النشط","البلعمة"],0],["الكائنات التي تصنع غذاءها بنفسها",["ذاتية التغذية","متباينة التغذية","محللة","مفترسة"],0],["مثال على الخلايا بدائية النواة",["خلايا النبات","البكتيريا","خلايا الإنسان","الفطريات"],1]]],
+[[["في المثلث القائم الموضح، طول الضلع المقابل للزاوية 30° يساوي",["5","10","8.66","20"],0,"tri"],["الحد السادس في المتتابعة الهندسية 2، 4، 8، ...",["32","64","48","16"],1],["حل المعادلة 2^س = 16 هو س =",["3","4","8","5"],1],["المسافة بين النقطتين (0، 0) و(3، 4)",["5","7","12","25"],0],["عدد طرق ترتيب 3 كتب مختلفة في صف",["3","6","9","27"],1]],
+[["الشكل موجة تمتد على 4 م وفيها دورتان كاملتان، وترددها 5 هرتز. سرعتها",["2.5 م/ث","10 م/ث","20 م/ث","0.4 م/ث"],1,"wave"],["القدرة = الشغل ÷",["القوة","الزمن","الكتلة","السرعة"],1],["طاقة الوضع الجاذبية لجسم كتلته 2 كجم على ارتفاع 5 م (g = 10)",["10 جول","50 جول","100 جول","20 جول"],2],["ينطبق قانون حفظ كمية الحركة على",["التصادمات في نظام معزول","الاحتكاك فقط","الانكسار","المقاومة"],0],["سماع الصدى ظاهرة سببها",["انعكاس الصوت","انكسار الصوت","حيود الصوت","تداخل الصوت"],0]],
+[["حسب مقياس pH الموضح، المحلول ذو pH = 2 يكون",["قاعديًّا قويًّا","متعادلًا","حمضيًّا قويًّا","قاعديًّا ضعيفًا"],2,"ph"],["الصيغة الأولية للمركب C₆H₁₂O₆",["CHO","CH₂O","C₂HO","C₃H₆O₃"],1],["عدد المولات في 36 جم من الماء (الكتلة المولية 18 جم/مول)",["1","2","3","4"],1],["المادة المحددة للتفاعل هي المادة التي",["تنفد أولًا","تتبقى بكمية أكبر","تمثل الناتج","تسرّع التفاعل"],0],["مادة تزيد سرعة التفاعل دون أن تُستهلك",["المثبط","العامل الحفاز","المذيب","الناتج"],1]],
+[["مربع بانيت الموضح لتزاوج Aa × Aa. نسبة الأفراد ذوي النمط الجيني aa",["25%","50%","75%","100%"],0,"pun"],["المرحلة التي تصطف فيها الكروموسومات في وسط الخلية في الانقسام الميتوزي",["التمهيدي","الاستوائي","الانفصالي","النهائي"],1],["أكثر مراحل التنفس الهوائي إنتاجًا لـ ATP",["التحلل السكري","دورة كريبس","سلسلة نقل الإلكترون","التخمر"],2],["الأكسجين الناتج من البناء الضوئي مصدره",["ثاني أكسيد الكربون","الماء","الجلوكوز","ATP"],1],["قانون مندل الأول هو قانون",["انعزال الأليلات","التوزيع المستقل","السيادة غير التامة","الارتباط"],0]]],
+[[["الشكل يمثل المنحنى د(س) = س². ميل المماس عند س = 1 يساوي",["1","2","3","0"],1,"par"],["مشتقة الدالة 5س² هي",["5س","10س","10س²","5"],1],["نهاية (س² - 1)/(س - 1) عندما س تؤول إلى 1",["0","1","2","∞"],2],["تكامل س² دس =",["س³/3 + ث","2س + ث","س³ + ث","3س³ + ث"],0],["عدد طرق اختيار عنصرين من 4 عناصر",["4","6","8","12"],1]],
+[["في الدائرة الموضحة بطارية 12 فولت ومقاومتان 2 Ω و4 Ω على التوالي. شدة التيار",["2 أمبير","3 أمبير","6 أمبير","1.5 أمبير"],0,"cir"],["القدرة الكهربائية لتيار 2 أمبير وفرق جهد 10 فولت",["5 واط","12 واط","20 واط","0.2 واط"],2],["اتجاه القوة المغناطيسية على شحنة متحركة في مجال مغناطيسي",["موازٍ للمجال","عمودي على المجال والسرعة","موازٍ للسرعة","عشوائي"],1],["طاقة الفوتون تعتمد على",["شدة الضوء","تردده","سرعته في الفراغ","كتلته"],1],["يعمل المحول الكهربائي بمبدأ",["الحث المتبادل","الاحتكاك","الانكسار","التأثير الكهروضوئي"],0]],
+[["الصيغة البنائية الموضحة تمثل",["الإيثان","الإيثانول","حمض الإيثانويك","الإيثين"],1,"eth"],["توجد الرابطة الثنائية في",["الألكانات","الألكينات","الألكانات الحلقية","الأميدات"],1],["الرقم الهيدروجيني لمحلول HCl تركيزه 0.01 مولار",["1","2","12","0.01"],1],["تحدث الأكسدة في الخلية الجلفانية عند",["الكاثود","الأنود","القنطرة الملحية","المحلول"],1],["ناتج تفاعل الحمض مع القاعدة",["ملح وماء","ملح وغاز","أكسيد","فلز"],0]],
+[["الشكل يمثل DNA. إذا كانت نسبة C فيه 30% فإن نسبة G تساوي",["20%","30%","40%","70%"],1,"dna"],["الكودون هو",["ثلاث قواعد متتالية على mRNA","قاعدة واحدة","ثلاث قواعد على tRNA","حمض أميني"],0],["الإنزيم الذي يقطع DNA عند مواقع محددة",["الليجيز","إنزيم القصر","البوليميريز","الهيليكيز"],1],["يبدأ التعاقب البيئي الأولي في",["تربة غنية","صخر عارٍ","غابة ناضجة","مزرعة"],1],["الأعضاء المختلفة الأصل المتشابهة في الوظيفة تسمى",["متناظرة","متشابهة وظيفيًّا","أثرية","حفريات"],1]]]
+];
+M.forEach((x,a)=>x.S.forEach((s,b)=>s[1].push(...X[a][b])));
+const FIG={
+tri:`<svg viewBox="0 0 210 120"><path d="M20 105H175L20 15Z" fill="none" stroke="currentColor" stroke-width="2.5"/><path d="M20 93h12v12" fill="none" stroke="currentColor"/><text x="110" y="52">10</text><text x="140" y="98">30°</text><text x="8" y="64">؟</text></svg>`,
+wave:`<svg viewBox="0 0 220 110"><path d="M10 50q20-40 40 0t40 0t40 0t40 0" fill="none" stroke="var(--ac)" stroke-width="3"/><path d="M10 50H210" stroke="currentColor" opacity=".3"/><path d="M10 95H170M10 90v10M170 90v10" stroke="currentColor"/><text x="90" y="85">4 م</text></svg>`,
+ph:`<svg viewBox="0 0 220 100"><defs><linearGradient id="g"><stop offset="0" stop-color="#e53935"/><stop offset=".5" stop-color="#43a047"/><stop offset="1" stop-color="#5e35b1"/></linearGradient></defs><rect x="10" y="35" width="200" height="26" rx="6" fill="url(#g)"/><text x="10" y="78">0</text><text x="110" y="78">7</text><text x="210" y="78">14</text><path d="M39 10v22" stroke="currentColor" stroke-width="3"/><text x="39" y="9">pH = 2</text></svg>`,
+pun:`<svg viewBox="0 0 160 110"><path d="M10 10h140v90H10zM10 40h140M10 70h140M40 10v90M95 10v90" fill="none" stroke="currentColor"/><text x="67" y="31">A</text><text x="122" y="31">a</text><text x="25" y="61">A</text><text x="25" y="91">a</text><text x="67" y="61">AA</text><text x="122" y="61">Aa</text><text x="67" y="91">Aa</text><text x="122" y="91">aa</text></svg>`,
+par:`<svg viewBox="0 0 220 130"><path d="M110 5V125M10 110H210" stroke="currentColor" opacity=".4"/><path d="M60 8Q110 212 160 8" fill="none" stroke="var(--ac)" stroke-width="3"/><text x="175" y="16">س²</text></svg>`,
+cir:`<svg viewBox="0 0 220 120"><path d="M20 20H200V100H20Z" fill="none" stroke="currentColor" stroke-width="2"/><rect x="50" y="12" width="40" height="16" fill="var(--sf)" stroke="var(--ac)" stroke-width="2"/><rect x="130" y="12" width="40" height="16" fill="var(--sf)" stroke="var(--ac)" stroke-width="2"/><rect x="85" y="92" width="50" height="16" fill="var(--sf)" stroke="currentColor" stroke-width="2"/><text x="70" y="45">2 Ω</text><text x="150" y="45">4 Ω</text><text x="110" y="82">12 V</text></svg>`,
+eth:`<svg viewBox="0 0 220 80"><path d="M55 40H78M132 40H152" stroke="currentColor" stroke-width="2.5"/><text x="30" y="46" style="font-size:18px">H₃C</text><text x="105" y="46" style="font-size:18px">CH₂</text><text x="175" y="46" style="font-size:18px">OH</text></svg>`,
+dna:`<svg viewBox="0 0 220 110"><path d="M10 55q27-60 55 0t55 0t55 0" fill="none" stroke="var(--ac)" stroke-width="3"/><path d="M10 55q27 60 55 0t55 0t55 0" fill="none" stroke="#FF6B6B" stroke-width="3"/><path d="M37 27V83M92 27V83M147 27V83M202 27V83" stroke="currentColor" opacity=".5"/></svg>`};
+const MC=["#2E8B8B","#D9734A","#6F5BD0"],root=document.documentElement;
+const P=[["أحسنت، بداية رائعة! 🌟","ثق بنفسك، أنت أقوى مما تظن","خطوة بعد خطوة تصل للقمة","ركّز، فالإجابة قريبة منك","استمر، أنت تتقدم! 🚀"],["أنت تسير بثبات، واصل! 💪","التميز عادة، وأنت تصنعها","لا تستعجل، فكّر ثم اختر","كل سؤال يقرّبك من هدفك 🎯","همّتك عالية، أكمل! ✨"],["أنت على أبواب القمة! 🏆","النجاح ثمرة المثابرة، واصل","ثقتك بربك ثم بنفسك سر نجاحك","القمة تتسع لأمثالك المجتهدين ⛰️","اللمسة الأخيرة تصنع الفرق! 🌠"]];
+const $=id=>document.getElementById(id),A=$('app'),L="أبجد",N=10,T=3600,G=["الأول الثانوي","الثاني الثانوي","الثالث الثانوي"];
+let m,k0,Q,ans,i,left,tmr,R={t:2,name:"",grade:G[0],cls:""};
+const fmt=s=>String(Math.floor(s/60)).padStart(2,0)+":"+String(s%60).padStart(2,0);
+const head=()=>`<div class="hd"><span class="seal">⭐</span><b>مدرسة أنس بن النضر الثانوية</b><span>محاكي التحصيلي</span></div>`;
+const foot=()=>`<div class="foot"><p><b>إعداد وإشراف: الأستاذ عبدالله المرواني</b></p><p>مدير المدرسة: الأستاذ ياسر العوفي</p><p>مشرف دعم التميز المدرسي: الأستاذ ماجد الأحمدي</p><p>جميع الحقوق محفوظة © 1448هـ - الأستاذ عبدالله المرواني</p><p>نماذج تدريبية محاكية</p></div>`;
+function ask(msg,yes){const d=document.createElement('div');d.className='md';d.innerHTML=`<div class="mb"><p style="color:var(--ink);font-size:17px">${msg}</p><div class="nav"><button class="btn g" id="mn">لا، أكمل</button><button class="btn" id="my">نعم</button></div></div>`;document.body.appendChild(d);$('mn').onclick=()=>d.remove();$('my').onclick=()=>{d.remove();yes()}}
+function toast(msg){const d=document.createElement('div');d.className='ts';d.textContent=msg;document.body.appendChild(d);setTimeout(()=>d.remove(),3500)}
+function color(k){root.style.setProperty('--b',MC[k])}
+function home(){clearInterval(tmr);color(0);
+A.innerHTML=head()+`<div class="hero"><h1>أهلًا بك يا بطل التحصيلي! 🌟</h1><p>كل سؤال تحلّه اليوم خطوة نحو درجتك العالية غدًا. أنت قادر على التميز، وبدايتك من هنا. بالتوفيق يا بطل! 💛</p></div>
+<div class="card"><h3>💡 كيف تستفيد من المحاكي أكثر؟</h3><ol class="tips"><li>اختر نموذجًا أنهيت دراسته، وقدّم الاختبار بجدية في مكان هادئ.</li><li>ابتعد عن الجوال والكتاب والآلة الحاسبة، ليكون التدريب حقيقيًّا.</li><li>ابدأ بالأسئلة السهلة، وضع علامة على ما تؤجله ثم ارجع إليه.</li><li>بعد النتيجة راجع كل إجابة خاطئة، وافهم سبب الخطأ قبل أن تنتقل.</li><li>أعد النموذج بعد المراجعة، وقارن درجتك بمحاولتك السابقة.</li><li>لا تحبط من الخطأ، فهو أسرع طريق للتعلم!</li></ol></div>
+<div class="card"><h3>👤 من أنت؟</h3><div class="chips">${["أنتمي للمدرسة","لا أنتمي للمدرسة، أتيت للتدريب فقط"].map((x,j)=>`<button class="chip ${R.t==(j?2:0)?'on':''}" onclick="R.t=${j?2:0};home()">${x}</button>`).join("")}</div>
+<p style="margin-top:8px">${R.t==0?"بعد انتهاء الاختبار ستحفظ ملف نتيجتك لتسلّمه لمعلمك.":"أهلًا بك! التدريب مفتوح لك بلا إرسال بيانات، ركّز على تطوير مستواك."}</p></div>
+<h3>🎯 اختر النموذج</h3><p>اختر النموذج الذي أنهيت دراسته: طالب الصف الثاني يستطيع اختبار النموذج الأول، وطالب الصف الثالث يختبر الأول والثاني أيضًا.</p>`+
+M.map((x,k)=>`<button class="m" style="--mc:${MC[k]}" onclick="intro(${k})"><b>${x.t} - ${x.s}</b><p>${x.S.map(s=>s[0]).join("، ")} (${N} أسئلة لكل مادة)</p></button>`).join("")+`<div class="card" style="text-align:center">🚀 <b>قريبًا:</b> اختبارات محاكية أخرى، فتابعنا واستمر في التدريب!</div>`+foot()}
+function intro(k){
+k0=k;m=M[k];color(k);scrollTo(0,0);
+A.innerHTML=head()+`<div class="hero"><h1>${m.t} - ${m.s}</h1><p>${m.S.length*N} سؤالًا، والوقت ${T/60} دقيقة. اجعلها محاولة تفخر بها!</p></div>
+<div class="card"><h3>📋 التعليمات</h3><ol class="tips"><li>اقرأ كل سؤال بعناية، فلكل سؤال إجابة صحيحة واحدة فقط.</li><li>يمكنك التنقل بين الأسئلة والمواد وتغيير إجاباتك قبل الإنهاء.</li><li>الآلة الحاسبة غير مسموحة.</li><li>ينتهي الاختبار تلقائيًّا بانتهاء الوقت، وتظهر النتيجة والمراجعة في النهاية.</li><li>الأسئلة غير المجابة تُحسب خاطئة.</li></ol></div>
+<div class="nav"><button class="btn g" onclick="home()">رجوع</button><button class="btn" onclick="start()">ابدأ الاختبار 🚀</button></div>`+foot()}
+function start(){Q=[];m.S.forEach((s,j)=>s[1].forEach(q=>Q.push({s:j,q:q[0],o:q[1],a:q[2],f:q[3]})));ans=Q.map(()=>-1);i=0;left=T;clearInterval(tmr);tmr=setInterval(()=>{left--;if(left<=0)return fin();$('tm').textContent=fmt(left)},1000);quiz()}
+function quiz(){const q=Q[i],p=P[k0];A.innerHTML=`<div class="top"><b>${m.t}</b><button class="btn g" onclick="ask('هل تريد الخروج والعودة للشاشة الرئيسية؟ ستفقد إجاباتك الحالية.',()=>{clearInterval(tmr);home()})">🏠 خروج</button><span class="tm" id="tm">${fmt(left)}</span></div>
+<div class="tabs">${m.S.map((s,j)=>`<button class="tab ${q.s==j?'on':''}" onclick="i=${j*N};quiz()">${s[0]}</button>`).join("")}</div><div class="enc">${p[i%p.length]}</div>
+<div class="card"><p>السؤال ${i+1} من ${Q.length}</p><div class="q" dir="auto">${q.q}</div>${q.f?`<div class="fig">${FIG[q.f]}</div>`:""}
+${q.o.map((o,k)=>`<button class="o ${ans[i]==k?'s':''}" onclick="ans[i]=${k};quiz()"><i>${L[k]}</i><span>${o}</span></button>`).join("")}
+<div class="nav"><button class="btn g" onclick="i--;quiz()" ${i==0?'disabled':''}>السابق</button>${i==Q.length-1?`<button class="btn" onclick="ask('هل أنت مستعد لإنهاء الاختبار؟',fin)">إنهاء</button>`:`<button class="btn" onclick="i++;quiz()">التالي</button>`}</div></div>
+<div class="gr">${Q.map((_,k)=>`<button class="${ans[k]>=0?'d':''} ${k==i?'c':''}" onclick="i=${k};quiz()">${k+1}</button>`).join("")}</div>`}
+const TOP=[["المعادلات والمتباينات، الأسس والجذور، الدوال والميل، المحيط والنسبة المئوية","الحركة والسرعة والعجلة، قوانين نيوتن، القوة والوزن، الاحتكاك","الذرة والجدول الدوري، الروابط الكيميائية، حالات المادة، المخاليط","الخلية وعضياتها، النقل عبر الغشاء، التصنيف، أنماط التغذية"],["حساب المثلثات، المتتابعات، اللوغاريتمات والمعادلات التربيعية، العد والتباديل","الشغل والطاقة والقدرة، كمية الحركة، الموجات والصوت","المول والكتل المولية، الغازات، الحرارة، الحموضة، سرعة التفاعل","الانقسام الخلوي، الوراثة المندلية، التنفس الخلوي، البناء الضوئي"],["النهايات والمشتقات والتكامل، الاحتمال والإحصاء، التوافيق","الدوائر الكهربائية، المجال المغناطيسي والحث، الفيزياء الحديثة","الكيمياء العضوية، الحموض والقواعد، الاتزان، الأكسدة والاختزال","DNA والبروتينات، التطور، البيئة، التقنية الحيوية"]];
+function lvl(){return `<div class="card"><h3>📈 مستواك في كل قسم</h3>${m.S.map((s,j)=>{const c=Q.filter((q,k)=>q.s==j&&ans[k]==q.a).length,p=c*100/N,tp=TOP[k0][j],st=p>=90?["🌟 قوي جدًّا","حافظ على مستواك وتحدَّ نفسك بأسئلة أصعب."]:p>=70?["💪 جيد","أنت قريب من التميز، راجع أخطاءك القليلة."]:p>=50?["📘 متوسط","يحتاج هذا القسم إلى مراجعة منظمة."]:["🌱 يحتاج دعمًا","ابدأ بهذا القسم أولًا، وستتحسن سريعًا بإذن الله."];
+return `<div style="margin:14px 0;padding-bottom:10px;border-bottom:1px solid var(--ln)"><div class="row"><b>${s[0]}</b><b style="color:var(--c${j})">${st[0]} (${p}%)</b></div><div class="bar"><div style="width:${p}%;background:var(--c${j})"></div></div><p>${st[1]}</p>${p<70?`<div class="enc" style="text-align:right;margin-top:6px"><b>🩺 خطة العلاج لمادة ${s[0]}:</b><ol class="tips" style="font-weight:500"><li>راجع موضوعات: ${tp}.</li><li>أعد حل أسئلتك الخاطئة في المراجعة، واكتب سبب كل خطأ بعبارتك.</li><li>حل 10 مسائل يوميًّا من كتابك المدرسي في هذه الموضوعات لمدة أسبوع.</li><li>اسأل معلم المادة عن النقاط الغامضة، ولا تتردد.</li><li>أعد هذا النموذج بعد أسبوع وقارن درجتك.</li></ol></div>`:""}</div>`}).join("")}</div>`}
+function lvShow(){const e=$('lv');if(e.hidden){e.innerHTML=lvl();e.hidden=false;e.scrollIntoView({behavior:'smooth'})}else e.hidden=true}
+function txt(){const sc=m.S.map((s,j)=>Q.filter((q,k)=>q.s==j&&ans[k]==q.a).length),t=sc.reduce((a,b)=>a+b,0);return `محاكي التحصيلي | ${m.t} (${m.s}) | رمز النموذج: M${k0+1}\nالنتيجة: ${t}/${Q.length} (${Math.round(t*100/Q.length)}%)\n${m.S.map((s,j)=>s[0]+": "+sc[j]+"/"+N).join(" | ")}\nالإجابات: ${ans.map(a=>a<0?"-":"abcd"[a]).join("")}\nالزمن المستغرق: ${fmt(T-Math.max(left,0))}`}
+function send(){return `<div class="card"><h3>📨 أرسل نتيجتك لمعلمك</h3><ol class="tips"><li>اضغط «حفظ ملف نتيجتي».</li><li>أرفق الملف عند تسليمه لمعلمك، واكتب اسمك الثلاثي كما يُطلب منك.</li></ol><div class="nav"><button class="btn" onclick="sv()">💾 حفظ ملف نتيجتي</button><button class="btn g" onclick="cp()">📋 نسخ النتيجة</button></div><textarea id="rs" readonly hidden onclick="this.select()" style="width:100%;height:140px;margin-top:8px;font:inherit;direction:rtl;padding:8px;border-radius:10px;border:1px solid var(--ln);background:var(--sf);color:var(--ink)">${txt()}</textarea></div>`}
+function showTxt(){const e=$('rs');e.hidden=false;e.select()}
+async function sv(){try{const d=window.claude&&await claude.use("downloads");const fn="tahsili-M"+(k0+1)+"-result.txt";if(d){await d.save({filename:fn,data:txt()})}else{const u=URL.createObjectURL(new Blob([txt()],{type:"text/plain;charset=utf-8"})),l=document.createElement("a");l.href=u;l.download=fn;document.body.appendChild(l);l.click();l.remove();setTimeout(()=>URL.revokeObjectURL(u),2000);toast("تم حفظ الملف ✅")}}catch(x){if(x&&x.code=="declined")return;showTxt();toast("تعذّر الحفظ المباشر. انسخ النتيجة من المربع وألصقها في ملف نصي.")}}
+function cp(){const ok=()=>toast("تم النسخ ✅");try{navigator.clipboard.writeText(txt()).then(ok,showTxt)}catch(x){showTxt()}}
+function fin(){clearInterval(tmr);const sc=m.S.map((s,j)=>Q.filter((q,k)=>q.s==j&&ans[k]==q.a).length),t=sc.reduce((a,b)=>a+b,0),pc=Math.round(t/Q.length*100);
+const msg=pc>=90?"مبهر! أنت نجم التحصيلي 🌟":pc>=75?"ممتاز! أنت قريب جدًا من القمة 💪":pc>=50?"بداية طيبة، وبالمراجعة ستتفوق 📈":"لا تقلق، كل بطل بدأ من هنا. راجع إجاباتك وأعد المحاولة، وستتحسن بإذن الله 🌱";
+A.innerHTML=head()+`<div class="hero"><h1>النتيجة 🎉</h1><div class="big">${t} / ${Q.length}</div><p style="text-align:center"><b>${pc}%</b> - ${msg}</p></div>
+<div style="margin:12px 0"><button class="btn" style="width:100%" onclick="lvShow()">📈 اعرف مستواك في كل قسم وخطة العلاج</button><div id="lv" hidden></div></div><div class="card"><h3>📊 تقرير نتائجك في كل قسم</h3>${m.S.map((s,j)=>{const u=Q.filter((q,k)=>q.s==j&&ans[k]<0).length,c=sc[j],w=N-c-u,p=c*100/N;return `<div class="row"><b>${s[0]}</b><b>${c} / ${N} (${p}%)</b></div><div class="bar"><div style="width:${p}%;background:var(--c${j})"></div></div><p>✅ صحيحة: ${c} · ❌ خاطئة: ${w} · ⬜ بلا إجابة: ${u}<br>${p>=80?"مستوى ممتاز، حافظ عليه 🌟":p>=50?"مستوى جيد، راجع أخطاءك لترتقي 📈":"تحتاج مراجعة هذه المادة، وستتحسن بالتدريب 🌱"}</p>`}).join("")}<p style="margin-top:12px"><b>⭐ أقوى أقسامك:</b> ${m.S[sc.indexOf(Math.max(...sc))][0]} · <b>🎯 ركّز على:</b> ${m.S[sc.indexOf(Math.min(...sc))][0]}</p></div>
+${R.t==0?send():""}
+<h3>📝 مراجعة الإجابات</h3>${Q.map((q,k)=>`<div class="card"><p>${m.S[q.s][0]} - سؤال ${k%N+1}</p><div class="q" dir="auto">${q.q}</div>${q.f?`<div class="fig">${FIG[q.f]}</div>`:""}${q.o.map((o,x)=>`<div class="o ${x==q.a?'ok':x==ans[k]?'no':''}"><i>${L[x]}</i><span>${o}</span></div>`).join("")}${ans[k]<0?'<p>لم تتم الإجابة</p>':''}</div>`).join("")}
+<div class="nav"><button class="btn g" onclick="intro(k0)">إعادة النموذج</button><button class="btn" onclick="home()">القائمة الرئيسية</button></div>`+foot();scrollTo(0,0)}
+home();
+</script></body></html>
